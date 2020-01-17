@@ -1,0 +1,28 @@
+@{
+  Layout = "_Layout";
+}
+
+@using Cafe.Models;
+@model Cafe.Models.Cuisine;
+
+<h2>Stylist Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
+
+
+ @if (@Model.Clients.Count == 0)
+{
+  <p>no clients found</p>
+} 
+
+<ul>
+@foreach (Client client in @Model.Clients)
+{
+   <li>Client: @client.Name</li>
+}
+</ul>
+
+<p>@Html.ActionLink("Add new client", "Create", "Clients")</p>
+<p>@Html.ActionLink("Back to stylists", "Index")</p>
+<p>@Html.ActionLink("Edit stylists", "Edit", new { id = Model.StylistId })</p>
+<p>@Html.ActionLink("Delete stylists", "Delete", new { id = Model.StylistId })</p>

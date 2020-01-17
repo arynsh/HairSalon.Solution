@@ -37,7 +37,7 @@ namespace HairSalon.Controllers
     public ActionResult Details(int id)
     {
       Stylist thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.StylistId == id);
-      thisStylist.Clients = _db.Clients.Where(clients => clients.StylistId == id).ToList(); //This is the magical line of code!! Inside () means: "restaurants" is looking at each individual item inside the restaurants table and seeing if their StylisteId matches the id passed through the parameter.
+      thisStylist.Clients = _db.Clients.Where(clients => clients.StylistId == id).ToList(); //This is the magical line of code!! Inside () means: "clients" is looking at each individual item inside the clients table and seeing if their StylisteId matches the id passed through the parameter.
       return View(thisStylist);
     }
 
