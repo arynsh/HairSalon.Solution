@@ -26,8 +26,24 @@ A website for a salon owner that enables them to keep track of hair stylists and
 
 1. Clone this repository: https://github.com/arynsh/HairSalon.Solution
 2. Open the command line--and navigate into the repository, then navigate into the HairSalon folder.
-3. In the command line, type in "dotnet restore" then "dotnet run".
-4. On your browser, open http://localhost:5000
+3. In your MySQLWorkbench, create a new schema 'sharon_lee'. Paste sql commands to generate two tables:
+
+CREATE TABLE `clients` (
+  `ClientId` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(255) DEFAULT NULL,
+  `StylistId` int(11) DEFAULT '0',
+  PRIMARY KEY (`ClientId`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `stylists` (
+  `StylistId` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`StylistId`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+4. In the command line, type in "dotnet restore" then "dotnet run".
+5. On your browser, open http://localhost:5000
 
 ## Known Bugs
 * No known bugs at this time.
