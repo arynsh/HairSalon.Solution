@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using HairSalon.Models;  // This enables passing in the CafeContext model 
+using HairSalon.Models;  // This enables passing in the HairSalonContext model 
 
 namespace HairSalon
 {
