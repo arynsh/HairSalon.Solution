@@ -9,8 +9,8 @@
 @using (Html.BeginForm())
 {
    
-    @Html.LabelFor(model => model.Name)  // Display's the property name
-    @Html.TextBoxFor(model => model.Name) // Creates input field 
+    @Html.LabelFor(model => model.Name) 
+    @Html.TextBoxFor(model => model.Name)
 
     @Html.LabelFor(model => model.Stylist)
     @Html.DropDownList("StylistId")

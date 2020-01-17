@@ -1,6 +1,6 @@
-# Eau Clair's Salon
+# Hair Salon Database
 
-#### A website for a Eau Clair's Salon.
+#### A website to keep track of a salon database.
 
 #### By **Sharon Lee**
 ## 🎉 Contents
