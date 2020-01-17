@@ -12,22 +12,22 @@
 - [License](#-license)
 
 ## Description
-A website where you can keep track of your hair stylists and clients associated with each stylist.
+A website for a salon owner that enables them to keep track of hair stylists and clients associated with each stylist.
 
 ### Specifications
 | Spec | Input | Output |
 | :-------------     | :------------ | :------------- |
-| **Homepage** | User accesses:http://localhost:5000/| User vies:Landing Homepage |
-| **User enters in a vendor|  Sharon's Cafe | Vendors: Sharon's Cafe;|
-| **User adds a new order to individual vendor's page |  35 Bagels |  Orders: 1. 35 Bagels|
-| **User clicks button to view order | (click button) | Price: 50 Date: 11/1/22|
+| **Homepage** | User accesses:http://localhost:5000/| User view:Landing Homepage |
+| **User enters in a stylist|  Stylist12 | Stylist List: Stylist12 |
+| **User adds a new client to a stylist | Client12 |  Stylist12: Client12 |
+| **User clicks button to view list of clients | (click button) | Client12 : Stylist12 |
 
 ### Steps
 
-1. Clone this repository: https://github.com/arynsh/VendorOrderTracker.Solution
-2. Open the command line--and navigate into the repository, then navigate into the ToDoList folder.
+1. Clone this repository: https://github.com/arynsh/HairSalon.Solution
+2. Open the command line--and navigate into the repository, then navigate into the HairSalon folder.
 3. In the command line, type in "dotnet restore" then "dotnet run".
-4. On your browser, open the index.html and enjoy!
+4. On your browser, open http://localhost:5000
 
 ## Known Bugs
 * No known bugs at this time.
