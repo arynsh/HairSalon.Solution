@@ -54,7 +54,7 @@ CREATE TABLE `stylists` (
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [ASP.Net](https://dotnet.microsoft.com/apps/aspnet)
 * [MySQLWorkbench](https://www.mysql.com/)
-* [Entity Frameword Core](https://docs.microsoft.com/en-us/ef/#pivot=entityfmwk)
+* [Entity Framework Core](https://docs.microsoft.com/en-us/ef/#pivot=entityfmwk)
 * Microsoft.NET.Sdk.Web
 * [Visual Studio](https://www.visualstudiocommunity.com)
 * [GitHub](https://www.github.com)
