@@ -7,12 +7,12 @@
 
 - [Description](#-description)
 - [Specifications](#-specifications)
-- [Requirements](#-epicodus)
+- [Instructions](#-instructions)
 - [Contact](#-contact)
 - [License](#-license)
 
 ## Description
-A website for a salon owner that enables them to keep track of hair stylists and clients associated with each stylist.
+A program for a salon owner that enables them to keep track of hair stylists and clients associated with each stylist.
 
 ### Specifications
 | Spec | Input | Output |
@@ -22,7 +22,7 @@ A website for a salon owner that enables them to keep track of hair stylists and
 | **User adds a new client to a stylist | Client12 |  Stylist12: Client12 |
 | **User clicks button to view list of clients | (click button) | Client12 : Stylist12 |
 
-### Steps
+### Instructions
 
 1. Clone this repository: https://github.com/arynsh/HairSalon.Solution
 2. Open the command line--and navigate into the repository, then navigate into the HairSalon folder.
@@ -53,8 +53,9 @@ CREATE TABLE `stylists` (
  Tools used:  
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [ASP.Net](https://dotnet.microsoft.com/apps/aspnet)
+* [MySQLWorkbench](https://www.mysql.com/)
+* [Entity Frameword Core](https://docs.microsoft.com/en-us/ef/#pivot=entityfmwk)
 * Microsoft.NET.Sdk.Web
-* Microsoft.NET.Test.Sdk
 * [Visual Studio](https://www.visualstudiocommunity.com)
 * [GitHub](https://www.github.com)
 * HTML
